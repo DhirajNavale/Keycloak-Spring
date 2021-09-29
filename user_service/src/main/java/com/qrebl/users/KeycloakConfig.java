@@ -8,12 +8,12 @@ import org.keycloak.admin.client.KeycloakBuilder;
 public class KeycloakConfig {
 
     static Keycloak keycloak = null;
-    public final static String serverUrl = "http://localhost:8180/auth";
-    public final static String realm = "spring-boot-realm";
-    public final static String clientId = "admin-cli";
-    public final static String clientSecret = "0df6fb2e-4db4-4ea1-95c5-62beb9005005";
-    public final static String userName = "theadmin";
-    public final static String password = "123456789";
+    final static String serverUrl = "YOUR_SERVER_URL";
+    public final static String realm = "YOUR_REALM_NAME";
+    final static String clientId = "YOUR_CLIENT_ID";
+    final static String clientSecret = "YOUR_CLIENT_SECRET_KEY";
+    final static String userName = "YOUR_REALM_ADMIN_USERNAME";
+    final static String password = "Your_REALM_ADMIN_PASSWORD";
 
 
     public KeycloakConfig() {
